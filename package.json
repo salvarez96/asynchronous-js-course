@@ -1,0 +1,12 @@
+{
+  "name": "curso-asincronismo-js",
+  "version": "1.0.0",
+  "description": "Asynchronous JS Course taken at Platzi. Used solely for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Santiago Alvarez",
+  "license": "MIT"
+}
