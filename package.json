@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-callback": "npx tsc ; node dist/callback/challenge.js"
+    "test-callback": "npx tsc ; node dist/callback/challenge.js",
+    "test-cows": "npx tsc ; node dist/promise/index.js"
   },
   "keywords": [],
   "author": "Santiago Alvarez",
