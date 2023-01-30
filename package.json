@@ -4,7 +4,8 @@
   "description": "Asynchronous JS Course taken at Platzi. Used solely for learning purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-callback": "npx tsc ; node dist/callback/challenge.js"
   },
   "keywords": [],
   "author": "Santiago Alvarez",
