@@ -6,15 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-callback": "npx tsc ; node dist/callback/challenge.js",
-    "test-cows": "npx tsc ; node dist/promise/index.js"
+    "test-cows": "npx tsc ; node dist/promise/index.js",
+    "test-promise": "npx tsc ; node dist/promise/challenge.js"
   },
   "keywords": [],
   "author": "Santiago Alvarez",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "typescript": "^4.9.4"
-  }
+  },
+  "type": "module"
 }
