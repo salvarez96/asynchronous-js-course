@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-callback": "npx tsc ; node dist/callback/challenge.js",
     "test-cows": "npx tsc ; node dist/promise/index.js",
-    "test-promise": "npx tsc ; node dist/promise/challenge.js"
+    "test-promise": "npx tsc ; node dist/promise/challenge.js",
+    "test-async": "npx tsc; node dist/async/challenge.js"
   },
   "keywords": [],
   "author": "Santiago Alvarez",
